@@ -1,0 +1,50 @@
+
+@CHARSET "ISO-8859-1";
+
+*
+{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body
+{
+background-color:white;
+
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+
+.menu-bar
+{
+background-color:black;
+text-align:center;
+}
+
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+color:white;
+}
+
+.menu-bar ul li
+{
+width:250px;
+margin:10px;
+padding:10px;
+}
+
+.menu-bar ul li a
+{	
+text-decoration:none;
+color:white;
+}
+
+.active, .menu-bar ul li:hover
+{
+background:grey;
+border-radius:3px;
+}
